@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculate Age</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div class="each-date">
+          <label class="day" for="day">DAY</label>
+          <input placeholder="DD" type="number" id="day" min="1" max="31" />
+          <p class="red hidden" id="error-day">Must be a valid day</p>
+          <h6 class="red hidden">This field is required</h6>
+        </div>
+        <div class="each-date">
+          <label class="month" for="month">MONTH</label>
+          <input placeholder="MM" type="number" id="month" min="1" max="12" />
+          <p class="hidden red" id="error-month">Must be a valid month</p>
+          <h6 class="red hidden">This field is required</h6>
+        </div>
+        <div class="each-date">
+          <label class="year" for="year">YEAR</label>
+          <input
+            placeholder="YYYY"
+            type="number"
+            id="year"
+            min="1900"
+            max="2023"
+          />
+          <p class="red hidden" id="error-year">Must be a valid year</p>
+          <h6 class="red hidden">This field is required</h6>
+        </div>
+      </div>
+      <div class="place-for-btn">
+        <hr />
+        <button onclick="calculateAge()">
+          <img src="./images/btn.svg" alt="" />
+        </button>
+        <hr class="right">
+      </div>
+      <div id="result">
+        <h2><span id="old">--</span>years</h2>
+        <h2><span id="months">--</span>months</h2>
+        <h2><span id="days">--</span>days</h2>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

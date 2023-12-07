@@ -1,0 +1,133 @@
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/poppins-v20-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.container {
+  width: 840px;
+  padding: 56px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  color: #716F6F;
+  margin-bottom: 8px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+.error {
+  color: red;
+}
+
+.form {
+  display: flex;
+  gap: 32px;
+}
+
+input {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  border-radius: 8px;
+  width: 160px;
+  padding: 12px 24px;
+  height: 72px;
+  border: 2px solid #716F6F;
+}
+
+input:focus {
+  outline: none;
+  border-color: #854DFF;
+}
+
+img {
+  width: 96px;
+  height: 96px;
+  background-color: #fff;
+}
+
+button {
+  background-color: #fff;
+  border: #fff;
+}
+
+hr {
+  transform: rotate(90deg);
+  height: 740px;
+}
+
+.place-for-btn {
+  display: flex;
+  margin-top: -300px;
+}
+
+#result {
+  margin-top: -300px;
+}
+
+h2 {
+  font-weight: 800;
+  line-height: 50px;
+  font-size: 104px;
+}
+
+span {
+  font-weight: 800px;
+  color: #854DFF;
+}
+
+input::placeholder {
+  font-weight: 700;
+  color: #716F6F;
+  font-size: 32px;
+}
+
+.hidden {
+  display: none;
+}
+
+.red {
+  color: red;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0px;
+}
+
+.right {
+  display: none;
+}
+
